@@ -38,7 +38,9 @@ html {
   /* .btn {
     font-size: 30px;
   } */
-  .text-box {
+  .calc-result-input {
     width: 300px;
     height: 100px;
+    background-color: white;
+    text-align: center;
   }
