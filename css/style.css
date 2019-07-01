@@ -1,0 +1,44 @@
+/* RESET */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.blue-box {
+  width: 400px;
+  height:600px;
+  background-color: rgba(0,0,255,0.5);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .btn:not(.text-box) { */
+.btn,.btn-op,.btn-result{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  font-size: 30px;
+  padding: 10px;
+  }
+
+
+  /* .btn {
+    font-size: 30px;
+  } */
+  .text-box {
+    width: 300px;
+    height: 100px;
+  }
